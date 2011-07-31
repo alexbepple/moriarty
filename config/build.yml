@@ -1,8 +1,8 @@
 name: Moriarty
 load: lib/application.rb
-identifier: com.yourcompany.Moriarty
+identifier: com.github.alexbepple.moriarty
 version: "1.0"
-icon: resources/HotCocoa.icns
+icon: resources/komik.icns
 resources:
   - resources/**/*.*
 sources: 
