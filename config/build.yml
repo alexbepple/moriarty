@@ -1,0 +1,9 @@
+name: Moriarty
+load: lib/application.rb
+identifier: com.yourcompany.Moriarty
+version: "1.0"
+icon: resources/HotCocoa.icns
+resources:
+  - resources/**/*.*
+sources: 
+  - lib/**/*.rb
