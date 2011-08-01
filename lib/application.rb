@@ -40,11 +40,19 @@ class Moriarty
                     ]
                 ) do |table|
                     table.setUsesAlternatingRowBackgroundColors(true)
+                    table.on_double_action { table_doubleclicked }
                 end
             end
+
         end
       end
     end
+  end
+
+  def table_doubleclicked
+      NSWorkspace.sharedWorkspace.selectFile(
+          '/usr/local/README.md', inFileViewerRootedAtPath: nil
+      )
   end
 
 end
